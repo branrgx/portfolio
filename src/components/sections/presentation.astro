@@ -1,0 +1,62 @@
+---
+import data from "../../data/me";
+import Social from "../social.astro";
+---
+
+<div class="mb-16">
+  <div class="grid">
+    <div class="heading-container">
+      <a href="/">
+        <span class="sr-only">Home</span>
+        <div class="relative flex items-center gap-x-4">
+          <img src={data.avatar} alt={data.name} class="h-12 w-12" />
+
+          <div class="text-lg leading-6">
+            <h1 class="font-semibold text-primary text-xl dark:text-white">
+              <span class="absolute inset-0"></span>
+              {data.name}
+            </h1>
+            <p class="text-zinc-500 dark:text-zinc-400">{data.position}</p>
+          </div>
+        </div>
+      </a>
+      <div class="social-icons">
+        <Social />
+      </div>
+    </div>
+  </div>
+  <p
+    class="mt-4 text-lg text-zinc-500 dark:text-zinc-400 font-light lg:text-xl"
+  >
+    <Fragment set:html={data.bio} />
+  </p>
+</div>
+
+<style>
+  .heading-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  h1 {
+    font-family: "IndustryBlack", sans-serif !important;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      margin-bottom: 0;
+    }
+    .heading-container {
+      grid-template-columns: 1fr;
+    }
+
+    .social-icons {
+      justify-content: left;
+    }
+  }
+</style>
