@@ -1,27 +1,47 @@
-# Shadowstack Portfolio
+# Portfolio de Brandon Garcia
 
-This project is a web developer portfolio built with Astro and deployed to a hosting service like vercel or netlify or cloudflare.
+¡Bienvenido a mi portafolio en línea! Soy Brandon Garcia, un desarrollador Full Stack y Mobile con experiencia en React Native. Me apasiona crear soluciones innovadoras y he trabajado en una variedad de proyectos. Mi enfoque en una buena experiencia de usuario y funcionalidad sólida me ha permitido entregar productos de alta calidad. ¡Estoy emocionado de compartir mi trabajo contigo y discutir cómo puedo contribuir a tus proyectos!
 
-## 🚀 Quick start
+## Trabajo Profesional
 
-**Clone the repository.**
-**Install the dependencies.**
+### Inari Manga (Tema Rediseñado)
 
-```bash
-npm install
-```
+Un rediseño utilizando como base otro template e incorporando otras características en relación con el diseño proporcionado. Todo se realizó en el menor tiempo posible para no afectar el sitio.
 
-**Start the development server.**
+### Funatire (En progreso)
 
-```bash
-npm run dev
-```
+Panel para facilitar la distribución de tareas y pagos correspondientes, gestionando permisos en el sitio y roles para las tareas.
 
-**Start editing the code!**
+## ¿Quieres Trabajar Juntos?
 
-Start with src/layouts/Layout.astro to set site description, title, and URL above the markup. Then start building out components for work and projects in `src/components/` and pages in `src/pages/`. Use the ones I left as a starting point. Make sure to update your social links in `src/components/Social.astro` and provide a [https://formspree.io/](https://formspree.io/) URL in `src/components/Contact.astro`. Most of the rest of the information lives on `src/pages/index.astro`.
+¡Contáctame y podemos conversar!
 
-## Scrolling Image Section
+## Proyectos Divertidos
 
-This section is `src/components/CustomImageScroll.astro` and can be updated above the markup in the JSON object called cards. Images should be placed in `src/assets/` so Astro can optimize them! This section is responsive and assumes a 16:9 aspect ratio for the images with a row count of 6 (so 12 total images) before the CSS fades out and loops. The anaimation for this is in `tailwind.config.mjs` and can be adjusted there.
+### Generador de Contraseñas
 
+Aplicación simple hecha con Astro para generar contraseñas basadas en la longitud de la contraseña y los tipos de caracteres a usar.
+
+[Ver Demo](https://password-generated.pages.dev/) [Ver en Github](https://github.com/dazh-dv/password-generated)
+
+### Clon de Twitter con Supabase
+
+Clon simple de X hecho en svelki con las acciones y la base de datos en supabase y inicio de sesión con github.
+
+[Ver en Github](https://github.com/dazh-dv/twitter-clone-sveltekit)
+
+### App de Viajes
+
+Aplicación simple hecha en React Native como interfaz para buscar y calificar lugares turísticos, presentando reseñas y calificaciones.
+
+[Ver en Github](https://github.com/dazh-dv/expo-app-travelers)
+
+## Contacto
+
+¡Si deseas saber más sobre mí o mis proyectos, no dudes en contactarme!
+
+**Correo Electrónico:** sanslime30@gmail.com
+
+## Conéctate conmigo
+
+[GitHub](GitHub)
